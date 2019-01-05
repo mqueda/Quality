@@ -1,0 +1,1 @@
+pylint -r y project1

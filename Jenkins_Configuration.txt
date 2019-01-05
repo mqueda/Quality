@@ -1,0 +1,5 @@
+Execute Windows batch command:
+
+C:\Users\mqueda\AppData\Local\Programs\Python\Python37-32\Scripts\nosetests --with-xunit --all-modules --traverse-namespace --with-coverage --cover-package=project1 --cover-inclusive
+C:\Users\mqueda\AppData\Local\Programs\Python\Python37-32\python -m coverage xml --include=project1*
+C:\Users\mqueda\AppData\Local\Programs\Python\Python37-32\Scripts\pylint -f parseable -d I0011,R0801 project1 | tee pylint.out
